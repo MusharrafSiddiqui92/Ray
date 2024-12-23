@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    height: 8vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.top span{
+    text-transform: uppercase;
+    font-size: small;
+}
+.top2{
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+    height: 10vh;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.top2 .logo img{
+    width: 80px;
+    height: 40px;
+    padding-top: 10px;
+}
+.top2 .logo p{
+    font-size: x-small;
+}
+.top2 .nav ul{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.top2 .nav ul li{
+    list-style-type: none;
+}
+.symbols{
+    display: flex;
+    padding-top: 15px;
+    font-size: 25px;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.top3{
+    height: 8vh;
+    background-color: rgb(226, 76, 22);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    margin-top: 40px;
+    padding-left: 130px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    padding-left: 130px;
+}
+.buttons button{
+    width: 150px;
+    height: 50px;
+    border: 2px dotted black;
+}
+.right{
+    display: flex;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 30px;
+    text-align: center;
+    text-wrap: wrap;
+}
+.footer2{
+    margin-top: 30px;
+    text-align: center;
+    bottom: 2px solid black;
+}
+.footer2 .button button{
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer3{
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.buttonrow .btn-group{
+    margin-top: 20px;
+    display: flex;
+    height: 40px;
+    flex-wrap: wrap;
+}
+.buttonrow .btn{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.paragraph{
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer4 .grid.text-center input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 500px;
+}
+.intimation{
+    margin-top: 20px;
+    font-size:small;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.footer5{
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+}
+.creditcard{
+    display: flex;
+gap: 20px;
+padding-right: 10px;
+font-size: 30px;
+flex-wrap: wrap;
+}
+.footer6{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    display: flex;
+    justify-content: space-around;
+}
+.footer6 .nav-link.active{
+    font-weight: bolder;
+    color: black;
+}
+.footer6 .nav-link{
+    color: black;
+}
+.webid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: small;
+}
+.lastfooter{
+    display: flex;
+    /* margin-left: 35px; */
+    font-size: small;
+    height: 200px;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.lastfooter .navbar-brand span{
+    color: white;
+}
+.lastfooter .nav-link{
+    color: white;
+}
+.lastfooter .copyright{
+    color: white;
+padding-left: 10px;
+}
