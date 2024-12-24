@@ -17,16 +17,12 @@
 }
 .top2{
     display: flex;
-    justify-content:center;
-    gap: 80px;
+    justify-content:space-evenly;
+    /* gap: 50px; */
     height: 10vh;
     flex-wrap: wrap;
     align-items: center;
     /* border: 2px solid black; */
-}
-.top2 nav{
-    display: flex;
-    flex-wrap: wrap;
 }
 .top2 .logo img{
     width: 80px;
@@ -46,7 +42,6 @@
 }
 .symbols{
     display: flex;
-    padding-top: 15px;
     font-size: 25px;
     gap:30px;
     flex-wrap: wrap;
